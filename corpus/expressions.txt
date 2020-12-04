@@ -1,0 +1,20 @@
+====
+Kappa (or expression)
+====
+
+120 Kappa
+
+---
+
+(source (integer) (identifier))
+
+====
+Operators
+====
+
+PogChamp
+LUL
+
+---
+
+(source (identifier) (identifier))

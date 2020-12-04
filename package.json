@@ -1,0 +1,33 @@
+{
+  "name": "tree-sitter-gleam",
+  "version": "0.1.0",
+  "description": "Gleam grammar for tree-sitter",
+  "main": "index.js",
+  "keywords": [
+    "parser",
+    "gleam"
+  ],
+  "author": "Dave Lage <rockerBOO@gmail.com> (https://github.com/rockerBOO)",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.8.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.17.3"
+  },
+  "scripts": {
+		"build": "tree-sitter generate",
+		"build-test": "tree-sitter generate && tree-sitter test",
+    "test": "tree-sitter test && script/parse-examples",
+    "test-windows": "tree-sitter test"
+  },
+  "tree-sitter": [
+    {
+      "scope": "source.gleam",
+      "injection-regex": "gleam",
+      "file-types": [
+        "rs"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+====
+Boolean
+====
+
+true
+false
+
+---
+
+(source (boolean) (boolean))
+
+
+====
+Ints
+====
+
+1
+2
+-3
+4001
+
+1 + 1
+5 - 1
+5 / 2
+3 * 3
+5 % 2
+
+2 > 1
+2 < 1
+2 >= 1
+2 <= 1
+
+1_000_000
+
+---
+
+(source 
+  (integer) 
+	(integer) 
+	(integer) 
+	(integer)
+
+	(binary_expression (integer) (integer)) 
+	(binary_expression (integer) (integer)) 
+	(binary_expression (integer) (integer)) 
+	(binary_expression (integer) (integer)) 
+	(binary_expression (integer) (integer)) 
+	(binary_expression (integer) (integer)) 
+	(binary_expression (integer) (integer)) 
+	(binary_expression (integer) (integer)) 
+	(binary_expression (integer) (integer)) 
+	(integer)
+)
+
+
