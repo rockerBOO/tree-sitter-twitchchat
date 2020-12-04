@@ -51,7 +51,23 @@ Adding grammar. Very open to pull requests to complete the grammar.
 * [ ] Expressions
 * [ ] Types
 
+## Install
+
+- `yarn` or `npm install` 
+
+## Build
+
+- `yarn build` makes grammar files in src/
+- `yarn test` tests in corpus/
+- `yarn build-test` makes grammar files and runs the tests
+
+### Rapid!
+
+Watch `grammar.js` file and run the `build-test` if there is changes.
+
+- `npx nodemon -w grammar.js --exec 'yarn build-test'`
 
 ## References
 
 * [Twitch Emotes](https://www.twitchemotes.com/)
+
