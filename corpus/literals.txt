@@ -19,16 +19,16 @@ Ints
 -3
 4001
 
-1 + 1
-5 - 1
-5 / 2
-3 * 3
-5 % 2
+1 :) 1
+5 :( 1
+5 :/ 2
+3 :* 3
+5 :% 2
 
-2 > 1
-2 < 1
-2 >= 1
-2 <= 1
+2 ;) 1
+2 :P 1
+2 :O 1
+2 >( 1
 
 1_000_000
 
@@ -37,7 +37,7 @@ Ints
 (source 
   (integer) 
 	(integer) 
-	(integer) 
+	(unary_expression (integer)) 
 	(integer)
 
 	(binary_expression (integer) (integer)) 

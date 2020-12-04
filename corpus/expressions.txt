@@ -1,20 +1,17 @@
 ====
-Kappa (or expression)
+Common expressions
 ====
 
-120 Kappa
+PogChamp too true
+WutFace WutFace WutFace 
+LUL LUL LUL
+EZ Clap
+OMEGALUL Pog
+
+FeelsBadMan how could you FeelsBadMan
+
+FeelsBadMan FeelsBadMan FeelsBadMan
 
 ---
 
-(source (integer) (identifier))
-
-====
-Operators
-====
-
-PogChamp
-LUL
-
----
-
-(source (identifier) (identifier))
+(source (identifier) (binary_expression (identifier) (string)) (block_expression (identifier)))

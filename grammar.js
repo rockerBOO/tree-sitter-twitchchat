@@ -13,7 +13,8 @@ module.exports = grammar({
 
     _expression_statement: ($) =>
       choice(
-        seq($._expression),
+        $._expression,
+				$.block_expression
       ),
 
     _expression: ($) =>
@@ -25,13 +26,19 @@ module.exports = grammar({
 				prec.left($.identifier)
       ),
 
+		block_expression: ($) => seq('do', $._expression),
+
 		unary_expression: $ => prec.left(11, seq(choice('-'), $._expression)),
 
-		_operator: () => choice('+', '-', '/', '*', '%', '<', '>', '<=', '>='),
+		// _operator: () => choice('+', '-', '/', '*', '%', '<', '>', '<=', '>='),
+
+		_operator: () => choice(':)', ':(', ':/', ':*', ':%', ';)', ':P', ':O', '>('),
 
 		binary_expression: $ => prec.left(9, seq($._expression, $._operator, $._expression)),
 
-		_literal: $ => choice($.integer, $.boolean),
+		_literal: $ => choice($.integer, $.boolean, $.string),
+
+		string: () => seq('"', repeat(/[^"\\]/), token.immediate('"')),
 
 		boolean: () => choice('true', 'false'),
 

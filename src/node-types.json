@@ -24,6 +24,45 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "block_expression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "unary_expression",
           "named": true
         }
@@ -48,6 +87,10 @@
           "named": true
         },
         {
+          "type": "block_expression",
+          "named": true
+        },
+        {
           "type": "boolean",
           "named": true
         },
@@ -60,11 +103,20 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "unary_expression",
           "named": true
         }
       ]
     }
+  },
+  {
+    "type": "string",
+    "named": true,
+    "fields": {}
   },
   {
     "type": "unary_expression",
@@ -91,6 +143,10 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "unary_expression",
           "named": true
         }
@@ -98,15 +154,7 @@
     }
   },
   {
-    "type": "%",
-    "named": false
-  },
-  {
-    "type": "*",
-    "named": false
-  },
-  {
-    "type": "+",
+    "type": "\"",
     "named": false
   },
   {
@@ -114,23 +162,43 @@
     "named": false
   },
   {
-    "type": "/",
+    "type": ":%",
     "named": false
   },
   {
-    "type": "<",
+    "type": ":(",
     "named": false
   },
   {
-    "type": "<=",
+    "type": ":)",
     "named": false
   },
   {
-    "type": ">",
+    "type": ":*",
     "named": false
   },
   {
-    "type": ">=",
+    "type": ":/",
+    "named": false
+  },
+  {
+    "type": ":O",
+    "named": false
+  },
+  {
+    "type": ":P",
+    "named": false
+  },
+  {
+    "type": ";)",
+    "named": false
+  },
+  {
+    "type": ">(",
+    "named": false
+  },
+  {
+    "type": "do",
     "named": false
   },
   {
