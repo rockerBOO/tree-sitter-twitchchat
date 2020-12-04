@@ -51,6 +51,18 @@ Adding grammar. Very open to pull requests to complete the grammar.
 * [ ] Expressions
 * [ ] Types
 
+## What Is/Can/Am I Do Can?
+
+Hello memers. You might be like... what is, how do i, i don't know, i wanna know, tell me how, JUST TELL ME HOW.
+
+This video is a great overview what tree-sitter does through incremental parsing of syntax. 
+- ["Tree-sitter - a new parsing system for programming tools" by Max Brunsfeld](https://www.youtube.com/watch?v=Jes3bD6P0To)
+
+Documentation on writting the grammar.
+- [Writing the Grammar](https://tree-sitter.github.io/tree-sitter/creating-parsers#writing-the-grammar)
+
+> Writing a grammar requires creativity. There are an infinite number of CFGs (context-free grammars) that can be used to describe any given language.
+
 ## Install
 
 - `yarn` or `npm install` 
